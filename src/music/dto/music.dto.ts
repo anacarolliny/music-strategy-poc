@@ -1,4 +1,4 @@
-import { MusicEntity } from 'src/entities/music.entity';
+import { MusicEntity } from 'src/music/entities/music.entity';
 
 export class MusicDto {
   id: string;

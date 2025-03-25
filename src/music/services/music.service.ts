@@ -1,8 +1,8 @@
 import { Injectable } from '@nestjs/common';
-import { ContestationStrategy } from 'src/strategies/contestation.strategy';
-import { MusicListStrategy } from 'src/strategies/music-list.strategy';
-import { PendingStrategy } from 'src/strategies/peding.strategy';
-import { ReleasedStrategy } from 'src/strategies/release.strategy';
+import { ContestationStrategy } from 'src/music/strategies/contestation.strategy';
+import { MusicListStrategy } from 'src/music/strategies/music-list.strategy';
+import { PendingStrategy } from 'src/music/strategies/peding.strategy';
+import { ReleasedStrategy } from 'src/music/strategies/release.strategy';
 
 @Injectable()
 export class MusicListService {

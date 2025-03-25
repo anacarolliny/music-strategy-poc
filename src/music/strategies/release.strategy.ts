@@ -1,6 +1,6 @@
-import { MusicRepository } from 'src/repositories/music.repository';
+import { MusicRepository } from 'src/music/repositories/music.repository';
 import { MusicListStrategy } from './music-list.strategy';
-import { MusicDto } from 'src/dto/music.dto';
+import { MusicDto } from 'src/music/dto/music.dto';
 import { Injectable } from '@nestjs/common';
 @Injectable()
 export class ReleasedStrategy implements MusicListStrategy {

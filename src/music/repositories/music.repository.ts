@@ -1,5 +1,5 @@
 import { Injectable } from '@nestjs/common';
-import { MusicEntity } from 'src/entities/music.entity';
+import { MusicEntity } from 'src/music/entities/music.entity';
 
 @Injectable()
 export class MusicRepository {

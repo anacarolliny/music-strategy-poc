@@ -1,7 +1,7 @@
 import { Injectable } from '@nestjs/common';
 import { MusicListStrategy } from './music-list.strategy';
 import { MusicDto } from '../dto/music.dto';
-import { MusicRepository } from 'src/repositories/music.repository';
+import { MusicRepository } from 'src/music/repositories/music.repository';
 
 @Injectable()
 export class ContestationStrategy implements MusicListStrategy {
